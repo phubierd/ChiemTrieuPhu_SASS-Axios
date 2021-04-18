@@ -1,0 +1,58 @@
+footer.footer {
+    background: url(../images/footer_background.jpg) center center;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    color: $color-white-1;
+
+    h1 {
+        font-weight: $fw-2;
+    }
+    a {
+        text-decoration: none;
+        color: $color-white-1;
+        &:hover{
+            color: $color-dark-2;
+        }
+    }
+    .footer__list {
+        a {
+            text-decoration: none;
+            color: $color-white-1;
+        }
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    #inputEmail{
+        border:1px solid rgba(255,255,255,.1);
+        background-color:transparent;
+        height: 40px;
+        color: $color-white-1;
+        &::placeholder{
+            color: $color-white-1;
+            opacity: 1;
+           padding-left: 40%;
+        }
+        &:focus{
+            box-shadow:0 0 0 0.2rem $color-white-1
+        }
+    }
+    .btnSub{
+        width: 100%;
+        height: 40px;
+        letter-spacing: 1px;
+        background-color: $color-white-1;
+        color: $color-dark-2;
+        &:hover {
+            color: $color-white-1;
+            background-color: transparent;
+            border: 2px solid $color-white-1;
+            transition: all 0.3s;
+           
+        }
+        &:focus{
+            box-shadow:0 0 0 2px $color-white-1;
+        }
+    }
+    
+}

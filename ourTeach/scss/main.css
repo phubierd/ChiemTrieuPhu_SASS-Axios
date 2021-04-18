@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html, body {
+  font-family: 'Montserrat', sans-serif;
+  color: #656774;
+  font-size: 13px;
+  font-weight: 400;
+  background-color: #f5f9fe; }
+
+header.header {
+  width: 100%;
+  height: 200px;
+  background-color: #f5f9fe;
+  background: url(../images/yellow_top_wave_01.png) no-repeat center center;
+  background-size: cover; }
+  header.header .header__content {
+    z-index: 100;
+    background-color: transparent; }
+  header.header .navbar-collapse .nav-item {
+    padding: 0 20px 0 0; }
+    header.header .navbar-collapse .nav-item i {
+      margin: 5px; }
+      header.header .navbar-collapse .nav-item i:hover {
+        color: #b61984; }
+    header.header .navbar-collapse .nav-item .nav-link {
+      margin: 10px;
+      color: #121212;
+      font-size: 13px;
+      font-weight: 400;
+      font-weight: 600; }
+      header.header .navbar-collapse .nav-item .nav-link:hover {
+        color: #b61984; }
+  header.header .navbar-collapse .phone {
+    background-color: #b61984; }
+    header.header .navbar-collapse .phone .nav-link {
+      color: #f5f9fe; }
+    header.header .navbar-collapse .phone:hover {
+      background-color: #f5f9fe;
+      border: 2px solid #b61984;
+      transition: all 0.3s; }
+      header.header .navbar-collapse .phone:hover .nav-link {
+        color: #b61984; }
+
+.carousel .col-6 {
+  padding: 0; }
+  .carousel .col-6 img {
+    width: 100%;
+    height: 100%; }
+.carousel h4 {
+  color: #b61984;
+  font-size: 1.1rem;
+  font-weight: 600; }
+.carousel h1 {
+  color: #121212;
+  font-size: 3.8rem;
+  font-weight: 700; }
+
+.ourTeach h5 {
+  color: #b61984;
+  font-size: 1.1rem;
+  font-weight: 400; }
+.ourTeach h1 {
+  color: #121212;
+  font-size: 1.8rem;
+  font-weight: 600; }
+.ourTeach p {
+  color: #121212;
+  font-size: 14px;
+  font-weight: 400; }
+.ourTeach .row .card {
+  margin: auto;
+  background-color: transparent;
+  padding: 0 20px;
+  border-radius: 10px;
+  border: none; }
+  .ourTeach .row .card .card-body {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 10px rgba(154, 153, 153, 0.2); }
+
+.cover1 {
+  background-image: url(../images/Violet_top_left_wave.png);
+  background-size: cover; }
+
+.course {
+  background: url(../images/accent_bottom_wave_01.png) center center;
+  background-size: cover; }
+  .course img {
+    height: 100%;
+    width: 100%; }
+  .course .course__formInfo .course__formContent {
+    background: white;
+    border-radius: 10px; }
+  .course .course__formInfo h1 {
+    color: #121212;
+    font-size: 37.5px;
+    font-weight: 600; }
+  .course .course__formInfo button {
+    height: 4em;
+    border-radius: 50px;
+    background-color: #b61984;
+    border: none; }
+    .course .course__formInfo button:hover {
+      background-color: #f5f9fe;
+      border: 2px solid #b61984;
+      transition: all 0.3s;
+      color: #b61984; }
+    .course .course__formInfo button:focus {
+      background-color: #f5f9fe;
+      border: 2px solid #b61984;
+      box-shadow: 0 0 0 2px #b61984;
+      color: #b61984; }
+  .course .course__formInfo #exampleFormControlTextarea1 {
+    border-radius: 20px; }
+
+footer.footer {
+  background: url(../images/footer_background.jpg) center center;
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+  color: #f5f9fe; }
+  footer.footer h1 {
+    font-weight: 600; }
+  footer.footer a {
+    text-decoration: none;
+    color: #f5f9fe; }
+    footer.footer a:hover {
+      color: #121212; }
+  footer.footer .footer__list {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+    footer.footer .footer__list a {
+      text-decoration: none;
+      color: #f5f9fe; }
+  footer.footer #inputEmail {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background-color: transparent;
+    height: 40px;
+    color: #f5f9fe; }
+    footer.footer #inputEmail::placeholder {
+      color: #f5f9fe;
+      opacity: 1;
+      padding-left: 40%; }
+    footer.footer #inputEmail:focus {
+      box-shadow: 0 0 0 0.2rem #f5f9fe; }
+  footer.footer .btnSub {
+    width: 100%;
+    height: 40px;
+    letter-spacing: 1px;
+    background-color: #f5f9fe;
+    color: #121212; }
+    footer.footer .btnSub:hover {
+      color: #f5f9fe;
+      background-color: transparent;
+      border: 2px solid #f5f9fe;
+      transition: all 0.3s; }
+    footer.footer .btnSub:focus {
+      box-shadow: 0 0 0 2px #f5f9fe; }
+
+/*# sourceMappingURL=main.css.map */

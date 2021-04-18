@@ -1,0 +1,33 @@
+.ourTeach {
+    h5 {
+        @include styleText($color-pink-1, $fs-2, $fw-1);
+    }
+    h1 {
+        @include styleText($color-dark-2, $fs-3, $fw-2);
+    }
+    p {
+        @include styleText($color-dark-2, $fs-9, $fw-1);
+    }
+
+    .row {
+        .card {
+            margin: auto;
+            background-color: transparent;
+            padding: 0 20px;
+            border-radius: 10px;
+            border: none;
+            .card-body {
+                background-color: rgba(255, 255, 255, 1);
+                border-radius: 10px;
+                box-shadow: 0px 10px rgba($color: #9a9999, $alpha: 0.2);
+            }
+        }
+    }
+}
+.cover1 {
+    background-image: url(../images/Violet_top_left_wave.png);
+// background-repeat: repeat-x;
+// background-position: center;
+    background-size: cover;
+
+}

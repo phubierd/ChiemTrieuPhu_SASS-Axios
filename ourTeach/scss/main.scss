@@ -1,0 +1,14 @@
+//helper
+@import './helper/variable';
+@import './helper/mixin';
+
+
+//base
+@import './base/reset';
+
+//layout
+@import './layout/header';
+@import './layout/carousel';
+@import './layout/ourTeach';
+@import './layout/course';
+@import './layout/footer';

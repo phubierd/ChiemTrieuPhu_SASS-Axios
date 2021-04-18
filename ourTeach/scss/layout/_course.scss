@@ -1,0 +1,42 @@
+.course {
+    background: url(../images/accent_bottom_wave_01.png) center center;
+    background-size: cover;
+    img {
+        height: 100%;
+        width: 100%;
+    }
+    .course__formInfo {
+        .course__formContent{
+            background:rgba(255, 255, 255, 1);
+            border-radius: 10px ; 
+
+        }
+        // border: 2px solid black;
+        h1 {
+            @include styleText($color-dark-2, $fs-11, $fw-2);
+        }
+        button {
+            height: 4em;
+            border-radius: 50px;
+            background-color:$color-pink-1;
+            border: none;
+            &:hover {
+                background-color: $color-white-1;
+
+                border: 2px solid $color-pink-1;
+
+                transition: all 0.3s;
+                color: $color-pink-1;
+            }
+            &:focus{
+                background-color:  $color-white-1;
+                border: 2px solid $color-pink-1;
+                box-shadow:0 0 0 2px $color-pink-1;
+                color: $color-pink-1;
+            }
+        }
+        #exampleFormControlTextarea1 {
+            border-radius: 20px;
+        }
+    }
+}
