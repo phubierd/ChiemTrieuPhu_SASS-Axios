@@ -1,11 +1,12 @@
-function RegUser (tk,hoTen,pass,email,hinhAnh,loaiND,loaiNN,moTa){
-    this.tk = tk;
+function RegUser (taiKhoan,hoTen,matKhau,email,hinhAnh,loaiND,ngonNgu,moTa){
+    //NOTE **********: đặt tên đúng theo database ví dụ ở đây tạo this.pass trên database là matKhau thì no sẽ k hiểu
+    this.taiKhoan = taiKhoan;
     this.hoTen = hoTen;
-    this.pass = pass;
+    this.matKhau = matKhau;
     this.email= email;
     this.hinhAnh = hinhAnh;
     this.loaiND = loaiND;
-    this.loaiNN = loaiNN;
+    this.ngonNgu = ngonNgu;
     this.moTa = moTa;
     
 }
